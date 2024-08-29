@@ -1,0 +1,25 @@
+ 
+# Compiled Object files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+
+# Build Directories
+/build/
+/dist/
+
+# IDE specific
+/.vs/
+/*.suo
+/*.user
+/*.ncb
+
+# Temporary files
+*.log
+*.tmp
+*.swp
