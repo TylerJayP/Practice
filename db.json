@@ -1,0 +1,57 @@
+{
+  "activities": [
+    {
+      "userId": 1,
+      "activityType": "login",
+      "timestamp": "2024-12-18T08:30:00",
+      "metadata": {
+        "ipAddress": "192.168.1.1",
+        "device": "Chrome/Windows"
+      }
+    },
+    {
+      "userId": 2,
+      "activityType": "purchase",
+      "timestamp": "2024-12-18T09:15:00",
+      "metadata": {
+        "amount": 49.99,
+        "productId": 123
+      }
+    },
+    {
+      "userId": 1,
+      "activityType": "pageview",
+      "timestamp": "2024-12-18T10:00:00",
+      "metadata": {
+        "page": "/products",
+        "referrer": "google.com"
+      }
+    },
+    {
+      "userId": 3,
+      "activityType": "login",
+      "timestamp": "2024-12-18T11:45:00",
+      "metadata": {
+        "ipAddress": "10.0.0.5",
+        "device": "Safari/macOS"
+      }
+    },
+    {
+      "userId": 1,
+      "activityType": "purchase",
+      "timestamp": "2024-12-18T14:20:00",
+      "metadata": {
+        "amount": 99.99,
+        "productId": 456
+      }
+    },
+    {
+      "userId": 2,
+      "activityType": "pageview",
+      "timestamp": "2024-12-17T15:00:00",
+      "metadata": {
+        "page": "/checkout"
+      }
+    }
+  ]
+}
